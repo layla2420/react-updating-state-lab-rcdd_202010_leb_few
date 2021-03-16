@@ -10,7 +10,7 @@ import React from 'react'
 function handleincrement(){
 this.setState(prev=>({timeClicked:prev.timeClicked+1}))
 }
-    
+
   }
   render(){(
   <button onClick={this.handleincrement}>{this.state.timeClicked}</button>
